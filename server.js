@@ -13,9 +13,9 @@ app.use(bodyParser.text());
 
 app.use(express.static("./app/public"));
 
-require(path.join(__dirname, 'app/routing/apiRoutes.js'))(app);
-require(path.join(__dirname, 'app/routing/htmlRoutes.js'))(app);
+require(path.join(__dirname, './app/routing/apiRoutes.js'))(app);
+require(path.join(__dirname, './app/routing/htmlRoutes.js'))(app);
 
 app.listen(PORT, function () {
-    console.log("Application listening on PORT: " + PORT);
+    console.log("Application listening on PORT: http://localhost:" + PORT);
 });
