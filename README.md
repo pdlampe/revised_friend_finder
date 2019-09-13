@@ -11,3 +11,11 @@ This application uses Express to handle routing.
 - express NPM Package - https://www.npmjs.com/package/express
 - path NPM Package - https://www.npmjs.com/package/path
 
+## Deployed App
+
+The application was deployed through Heroku. 
+
+https://friendfinderkcmo.herokuapp.com
+
+
+
